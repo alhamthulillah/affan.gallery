@@ -1,0 +1,34 @@
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgba(43, 0, 255, 0.989);
+    background-color:rgb(183, 255, 0);
+}
+h3 {
+    font-size: 2.5rem;
+    text-align: center;    
+}
+
+.gallery > div {
+    columns: 5;
+    gap: 1.25rem;
+    padding-top: 1.25rem;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.25rem;
+}
+
+@media (max-width: 48rem) {
+    .gallery > div {
+        columns: 2;
+    }
+}
+
+@media (max-width: 32rem) {
+    .gallery > div {
+        columns: 1;
+    }
+}

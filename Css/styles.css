@@ -1,9 +1,17 @@
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
 h1 {
     font-size: 2.5rem;
     text-align: center;
     color: rgba(43, 0, 255, 0.989);
-    background-color:rgb(183, 255, 0);
+    background-color:aqua;
 }
+
 h3 {
     font-size: 2.5rem;
     text-align: center;    

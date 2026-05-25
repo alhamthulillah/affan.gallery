@@ -5,6 +5,18 @@
     display: flex;
     align-items: center;
 }
+
+.btn {
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    padding: 100px 100px;
+}
+
+.click-view-gallery {
+    color: red;
+    font-size: 1.5rem;
+}
+
 h1 {
     font-size: 2.5rem;
     text-align: center;
